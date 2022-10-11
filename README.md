@@ -4,7 +4,7 @@ Disclaimer: I run it on the lab machines.
 
 TO RUN:
 - add jgraph to your path (note: must log out and back in for change to take effect)
-  - append "export PATH="$PATH:/home/jplank/bin/LINUX-X86_64" to the end of "~/z.sh.path"
+  - append "export PATH="$PATH:/home/jplank/bin/LINUX-X86_64" to the end of "~/.zsh.path"
 - run `make`
 - make sure maze.sh is executable (`chmod +x maze.sh`)
 - run `./maze.sh <length> <width>` to test custom mazes, or try `./maze.sh test` to generate 5 random mazes
