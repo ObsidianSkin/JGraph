@@ -6,8 +6,15 @@
 
 #include <string>
 #include <cstdio>
+#include "disjoint_set.hpp"
 
 using namespace std;
+
+//TODO
+//-implement disjoint sets
+//	-using plank's implementation
+//-create maze (Random Prim's algo)
+//-solve maze
 
 //helper to make maze (Prim's algo)
 void makeMaze(int **board, int row, int col) {
@@ -64,7 +71,7 @@ void deleteBoard(int **board, int row) {
 
 int main(int argc, char *argv[]) {
 	//TODO
-	//take user argument to solve maze or not
+	//take user argument to solve maze or not?
 	if(argc < 3) {
 		printf("usage: bin/maze length width\n");
 		return 1;
